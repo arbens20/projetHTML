@@ -1,0 +1,226 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+/* barre de navigation entete */
+header {
+  background-color: #16c5fd;
+  /* font-size: 30px;
+  width: 100%;
+  padding: 5px; */
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  padding: 20px 10px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 0, 5s;
+}
+/* Barre de navigation */
+.navbar {
+  display: flex;
+  position: relative;
+}
+.navbar li {
+  list-style: none;
+  position: relative;
+}
+.navbar a {
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+input {
+  color: black;
+  margin-left: 45px;
+}
+
+.logo {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+  font-size: 30px;
+}
+/* les sous menus */
+.sub {
+  display: none;
+}
+
+.sub {
+  display: none;
+}
+.navbar li:hover .sub {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  padding: 0px;
+  z-index: 1000;
+}
+.sub li {
+  border-bottom: 1px solid #ccc;
+  background-color: darkgray;
+  width: 100px;
+}
+.sub li a {
+  padding: 5px 15px;
+  font-size: 15px;
+  color: grey;
+  width: 270px;
+}
+
+header .navbar li a:hover {
+  color: black;
+  border-bottom: 2px solid grey;
+  font-weight: bold;
+}
+.sub li a {
+  color: white;
+  margin-left: 1%;
+  padding-top: 2px;
+}
+
+.sub li {
+  margin-top: 10px;
+}
+.banniere {
+  display: flex;
+  font-weight: 700;
+  width: 100%;
+  height: 600px;
+  min-height: 100vh;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+.banniere .rabais {
+  max-width: 25%;
+  text-align: center;
+  color: black;
+}
+.banniere .rabais h1 {
+  color: black;
+  font-size: 3em;
+}
+.members {
+  text-align: center;
+}
+
+.fl_right ul li {
+  list-style: none;
+}
+.fl_right {
+  box-shadow: 0px 3px 10px 3px #787878;
+  width: 300px;
+  margin: 20px;
+  padding: 12px;
+  font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+}
+/* Brand */
+.brand {
+  background-color: #16c5fd;
+}
+.brand li {
+  display: inline-block;
+  list-style: none;
+  margin: 12px;
+}
+
+.brand li img {
+  border-radius: 20%;
+}
+
+/* footer */
+footer {
+  background-color: #16c5fd;
+  color: white;
+  padding: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+}
+
+.left,
+.right {
+  margin-left: 20%;
+}
+.social li {
+  margin-bottom: 12px;
+}
+
+.left,
+.right {
+  font-size: 20px;
+}
+.copy {
+  font-size: 25px;
+}
+.btn_media i {
+  margin-left: 4px;
+}
+.right .btn_foot li a:hover {
+  color: black;
+  border-bottom: 2px solid grey;
+  font-weight: bold;
+  background-color: white;
+}
+.left .btn_media .contact_btn a:hover {
+  color: black;
+  border-bottom: 2px solid grey;
+  font-weight: bold;
+  background-color: white;
+}
+/* about */
+section {
+  padding: 100px;
+}
+.abt {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.abt .imlogo {
+  position: relative;
+  width: 48%;
+  justify-content: center;
+  align-items: center;
+}
+.abt .imlogo h2 {
+  margin-bottom: 20px;
+}
+.abtt {
+  color: black;
+  font-size: 2em;
+  font-weight: 300px;
+  text-transform: capitalize;
+}
+.abtt span {
+  color: cyan;
+  font-size: 1.5em;
+  font-weight: 700px;
+}
+.abt .imlogo img {
+  height: 450px;
+  width: 600px;
+  position: relative;
+}
+
+main {
+  margin-bottom: 15px;
+}

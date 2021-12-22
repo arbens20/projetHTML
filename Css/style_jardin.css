@@ -1,0 +1,321 @@
+/* barre de navigation entete */
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+header {
+  background-color: #16c5fd;
+  /* font-size: 30px;
+    width: 100%;
+    padding: 5px; */
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  padding: 20px 10px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 0, 5s;
+}
+/* Barre de navigation */
+.navbar {
+  display: flex;
+  position: relative;
+}
+.navbar li {
+  list-style: none;
+  position: relative;
+}
+.navbar a {
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+input {
+  color: black;
+  margin-left: 45px;
+}
+
+.logo {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+  font-size: 30px;
+}
+/* les sous menus */
+.sub {
+  display: none;
+}
+
+.sub {
+  display: none;
+}
+.navbar li:hover .sub {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  padding: 0px;
+  z-index: 1000;
+}
+.sub li {
+  border-bottom: 1px solid #ccc;
+  background-color: darkgray;
+  width: 100px;
+}
+.sub li a {
+  padding: 5px 15px;
+  font-size: 15px;
+  color: grey;
+  width: 270px;
+}
+
+header .navbar li a:hover {
+  color: black;
+  border-bottom: 2px solid grey;
+  font-weight: bold;
+}
+.sub li a {
+  color: white;
+  margin-left: 1%;
+  padding-top: 2px;
+}
+
+.sub li {
+  margin-top: 10px;
+}
+
+/* entete*/
+/*header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+header h1 {
+  display: flex;
+  justify-content: center;
+}
+header h2 {
+  display: flex;
+  justify-content: left;
+}
+header h3 {
+  display: flex;
+  justify-content: center;
+}
+/*fin de l'entete*/
+
+/* section principale*/
+/**.main{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ /* toutes les cartes*/
+.card {
+  box-shadow: 10px 10px 10px 10px gray;
+  display: inline-block;
+  margin-left: 75px;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 50px;
+  /* width: 300px; */
+}
+
+/* fin de toutes les cartes*/
+
+/*fin de la section principale*/
+em {
+  text-decoration: line-through;
+}
+.trait {
+  height: 3px;
+  width: 77%;
+  background-color: black;
+  margin: 9px;
+  padding: 2px;
+}
+
+.categorie0 {
+  margin: 25px;
+  padding: 10px;
+}
+
+.waa {
+  box-shadow: 4px 1px 4px 2px #16c5fd;
+  margin: 2px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+  width: 30%;
+}
+
+.categorie00 {
+  margin: 25px;
+  padding: 10px;
+}
+
+.wee {
+  box-shadow: 4px 1px 4px 2px #16c5fd;
+  margin: 2px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+  width: 30%;
+}
+
+.categorie {
+  margin: 25px;
+  padding: 10px;
+}
+
+.wey {
+  box-shadow: 4px 1px 4px 2px #16c5fd;
+  margin: 2px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+  width: 30%;
+}
+
+.categorie2 {
+  margin: 25px;
+  padding: 10px;
+}
+
+.way {
+  box-shadow: 4px 1px 4px 2px #16c5fd;
+  margin: 2px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+  width: 30%;
+}
+
+.categorie3 {
+  margin: 25px;
+  padding: 10px;
+}
+
+.wuy {
+  box-shadow: 4px 1px 4px 2px #16c5fd;
+  margin: 2px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+  width: 40%;
+}
+
+/* banniere */
+.banniere {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../Img/jardinban.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.banniere .contenu {
+  max-width: 25%;
+  text-align: center;
+}
+
+.banniere .contenu h2 {
+  color: #16c5fd;
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.contenu p,
+h3 {
+  color: white;
+}
+
+/* footer */
+footer {
+  background-color: #16c5fd;
+  color: white;
+  padding: 30px;
+  width: 100%;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+}
+
+.left,
+.right {
+  margin-left: 20%;
+}
+.social li {
+  margin-bottom: 12px;
+}
+
+.left,
+.right {
+  font-size: 20px;
+}
+.copy {
+  font-size: 25px;
+}
+.btn_media i {
+  margin-left: 4px;
+}
+.right .btn_foot li a:hover {
+  color: black;
+  border-bottom: 2px solid grey;
+  font-weight: bold;
+  background-color: white;
+}
+.left .btn_media .contact_btn a:hover {
+  color: black;
+  border-bottom: 2px solid grey;
+  font-weight: bold;
+  background-color: white;
+}
+
+.b {
+  justify-content: center;
+  margin: 30px;
+}
+
+.c {
+  justify-content: center;
+  margin: 30px;
+}
+
+.a {
+  justify-content: center;
+  margin: 30px;
+}
+
+.d {
+  justify-content: center;
+  margin: 30px;
+}
+
+.e {
+  justify-content: center;
+  margin: 30px;
+}
+img:hover {
+  opacity: 0.5;
+  transition: 0.6s ease-in-out;
+  transform: scale(1.05);
+}
